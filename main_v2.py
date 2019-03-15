@@ -168,4 +168,12 @@ class scrapy.selector.HtmlXPathSelector(response)
 
                else:
                    break
-      
+      yield facility_name
+      yield administrator
+      yield address 
+      yield phone_number
+      yield operator
+      yield total_number_licensed_beds
+      yield medicare_beds
+      yield medicaid_beds
+	
